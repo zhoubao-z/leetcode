@@ -24,9 +24,8 @@ public class _0902_getKthFromEnd {
     }
 
     public static void main(String[] args) {
-        ListNode node=new ListNode();
         int[] nums=new int[]{1,2,3,4,5};
-       ListNode head= node.getLinkedList(nums);
+       ListNode head= ListNode.getLinkedList(nums);
         System.out.println(getKthFromEnd(head,4).val);
     }
 }

@@ -17,7 +17,7 @@ public class ListNode {
         this.val=x;
         this.next=next;
     }
-    public  ListNode getLinkedList(int[] nums){
+    public static ListNode getLinkedList(int[] nums){
         if(nums==null||nums.length==0){
             return new ListNode();
         }
