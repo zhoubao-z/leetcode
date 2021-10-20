@@ -3,6 +3,10 @@ package record_202110;
 import java.util.Map;
 import java.util.TreeMap;
 
+/**
+ * https://leetcode-cn.com/problems/data-stream-as-disjoint-intervals/
+ * 将数据流变为多个不相交区间
+ */
 public class _1009_SummaryRanges {
     public static void main(String[] args) {
         SummaryRanges summaryRanges = new SummaryRanges();
