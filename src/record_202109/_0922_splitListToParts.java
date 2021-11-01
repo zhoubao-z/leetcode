@@ -1,7 +1,5 @@
 package record_202109;
 
-import dataStructure.ListNode;
-
 /**
  * 分隔链表
  * https://leetcode-cn.com/problems/split-linked-list-in-parts/
@@ -51,3 +49,5 @@ public class _0922_splitListToParts {
         }
     }
 }
+
+
