@@ -27,7 +27,7 @@ public class _1103_trapRainWater {
         }
         Queue<int[]> qu = new LinkedList<>();
         for (int i = 0; i < m; i++) {
-            for (int j = 0; i < n; j++) {
+            for (int j = 0; j < n; j++) {
                 if (i == 0 || i == m - 1 || j == 0 || j == n - 1) {
                     if (water[i][j] > heightMap[i][j]) {
                         water[i][j] = heightMap[i][j];
