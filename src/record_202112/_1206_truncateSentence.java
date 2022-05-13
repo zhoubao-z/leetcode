@@ -13,4 +13,8 @@ public class _1206_truncateSentence {
         }
         return s;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
